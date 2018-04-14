@@ -4,7 +4,7 @@ def speak_to_grandma (STRING)
     puts "I LOVE YOU TOO PUMPKIN!"
 end
 
-speak_to_grandma (STRING)
+speak_to_grandma(STRING)
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
