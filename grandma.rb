@@ -1,8 +1,10 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma ("I LOVE YOU GRANDMA!")
- if "I LOVE YOU GRANDMA!".upcase == "I LOVE YOU GRANDMA!"
+def speak_to_grandma (STRING)
+ if STRING.upcase == STRING
     puts "I LOVE YOU TOO PUMPKIN!"
 end
+
+speak_to_grandma (STRING)
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
